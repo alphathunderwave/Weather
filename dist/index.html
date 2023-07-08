@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="search">
+        <form action="/" id="search">
+          <input type="text" name="location" id="location" />
+          <input type="submit" value="search" id="submit" autocomplete="off" />
+        </form>
+      </div>
+      <div class="weather hidden">
+        <h1 class="c"></h1>
+        <div class="current"></div>
+        <h2>Hourly</h2>
+        <div class="hourly"></div>
+        <h2>Ten Day</h2>
+        <div class="ten-day"></div>
+      </div>
+    </div>
+  </body>
+  <script src="bundle.js"></script>
+</html>

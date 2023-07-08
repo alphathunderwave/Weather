@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@200;300&display=swap");
+* {
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+  
+}
+body {
+    background-color: aliceblue;
+}
+h1 {
+  font-family: "Caprasimo", cursive;
+  letter-spacing: 3px;
+}
+h2 {
+    font-weight: 200;
+}
+.hidden {
+    display: none;
+}
+.day {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+    width: 85px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+.hour {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+    width: 85px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+
+}
+.hourly {
+    display: grid;
+    grid-auto-flow: column;    
+    overflow: auto;
+}
+.ten-day {
+    display: grid;
+    grid-auto-flow: column;    
+    overflow: auto;
+
+}
+.temp {
+    font-size: 35px;
+}
+.conditon {
+    font-size: 20px;
+}
+.p {
+    height: 10px;
+}
+.current {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+    border-radius: 20px;
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    font-size: 40px;
+}
+.current h3 {
+    margin: 0;
+}
