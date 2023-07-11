@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&family=Poppins:wght@100;300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,600&display=swap');
 * {
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: aliceblue;
+  height: 100%;
+  background-attachment: fixed;
 }
 h1 {
-  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
+  font-weight: 600;
   font-style: italic;
 }
 h2 {
@@ -66,4 +67,24 @@ h2 {
 }
 .current h3 {
   margin: 0;
+}
+::-webkit-scrollbar {
+  height: 5px;
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.content {
+  padding: 10px;
 }
