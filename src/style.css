@@ -5,14 +5,17 @@
 body {
   height: 100%;
   background-attachment: fixed;
+  margin: 0;
 }
 h1 {
   text-transform: uppercase;
   font-weight: 600;
   font-style: italic;
+
 }
 h2 {
   font-weight: 200;
+  margin: 40px;
 }
 .hidden {
   display: none;
@@ -75,6 +78,7 @@ h2 {
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 20px;
+  margin: 40px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -85,6 +89,33 @@ h2 {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-.content {
+#location {
+  border-radius: 20px;
   padding: 10px;
+  border: 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .125);
+  background-color: white;
+}
+#submit {
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  border: 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .125);
+
+}#submit:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+
+}
+.header {
+  margin: 20px;
+}
+.search {
+  margin: 20px;
+}
+.current {
+  margin: 40px;
+}
+.c {
+  margin: 20px;
 }
